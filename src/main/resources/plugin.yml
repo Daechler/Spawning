@@ -1,0 +1,15 @@
+name: Spawning
+version: '${project.version}'
+main: net.daechler.spawning.Spawning
+api-version: '1.20'
+authors: [Daechler]
+description: Manage your server spawn.
+commands:
+  setspawn:
+    description: Set the world spawn point.
+    usage: /<command>
+    permission: spawning.setspawn
+  spawn:
+    description: Teleport to the world spawn.
+    usage: /<command>
+    permission: spawning.use
